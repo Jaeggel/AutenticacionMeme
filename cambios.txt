@@ -1,0 +1,5 @@
+-textos
+-header,header2,verifmeme, memegen, galmeme
+fa fa-key
+fa fa-smile-o
+fa fa-sign-out

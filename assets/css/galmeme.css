@@ -1,0 +1,62 @@
+#gallery {
+	display: none;
+}
+.emojis{
+width: 100px;
+    }
+#top-text
+{ 
+	font-family: 'Gloria Hallelujah', cursive;
+	text-transform:uppercase; 
+}
+#bottom-text
+{ 
+	font-family: 'Gloria Hallelujah', cursive;
+	text-transform:uppercase; 
+}
+.emojis img{
+float: left;
+margin-left: 0px 0px 0px 100px;
+width: 60px;
+height: 60px;
+position:absolute;
+top:540px;
+left:500px
+}
+#jgal {
+	padding:0;margin:0;list-style: none; width: 360px;
+}
+#jgal li {
+	opacity: .5;
+	filter:alpha(opacity=50);
+	float: left;
+	display: block;
+	width: 75px;
+	height: 75px;
+	background-position: 50% 50%;
+	background-size: 100%;
+	cursor: pointer;
+	border: 3px solid #fff;
+	outline: 1px solid #ddd;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+#jgal li img {
+	position: absolute;
+	top: 0px;
+	left: 585px;
+	display: none;
+
+}
+#jgal li.active img {
+	display: block;
+	width:550px;
+}
+#jgal li.active, #jgal li:hover {
+	outline-color: #bbb;
+	opacity: .99;
+	filter:alpha(opacity=99);
+}
+input {
+  display: block;
+}
